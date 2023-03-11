@@ -1,0 +1,2 @@
+openai ; python_version >= "3.9"
+python-dotenv ; python_version >= "3.9"
