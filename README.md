@@ -47,15 +47,16 @@ Your project directory should now look like this:
 ```
 gptpy
 ├─ env
-├─ modules
+├─ gptpy
+│  ├─ __main__.py
 │  ├─ api.py
 │  ├─ interface.py
 │  ├─ presets.py
 │  ├─ system.py
-├─ __main__.py
 ├─ .env
 ├─ LICENSE.md
 ├─ README.md
+├─ requirements.txt
 ├─ setup.py
 ```
 
@@ -64,7 +65,7 @@ gptpy
 Make sure you are inside the project directory then start GPTpy in your terminal:
 
 ```
-python .
+python -m gptpy
 ```
 
 Configure the GPT model hyperparameters manually in `__main__.py`:
