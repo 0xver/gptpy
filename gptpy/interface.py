@@ -1,5 +1,5 @@
-from modules.system import response
-from modules.presets import education, standard, creative
+from .system import response
+from .presets import education, standard, creative
 
 
 def config(

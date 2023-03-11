@@ -1,4 +1,4 @@
-from modules.interface import config, raw_controller, preset_controller
+from .interface import config, raw_controller, preset_controller
 
 preset_control = False
 

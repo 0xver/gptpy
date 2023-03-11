@@ -1,5 +1,5 @@
 import openai
-from modules.api import key
+from .api import key
 
 openai.api_key = key
 
